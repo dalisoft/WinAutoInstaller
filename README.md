@@ -38,6 +38,21 @@ _This feature is currently not impelemnted, format was already made_
 
 ## Recommended commands
 
+### SSH Fixes
+
+Run in PowerShell with Administrator rights
+
+```powershell
+Set-Service ssh-agent -StartupType Automatic
+git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe
+```
+
+Run in Command Prompt with Administrator rights
+
+```cmd
+sc config ssh-agent start=auto && net start ssh-agent
+```
+
 ### Improve network speed
 
 ```powershell
