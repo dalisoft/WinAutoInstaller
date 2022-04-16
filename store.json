@@ -793,6 +793,15 @@
       ]
     },
     {
+      "name": "MS Visual C++ Build Tools",
+      "source": [
+        {
+          "Id": "visualcpp-build-tools",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
       "name": "VP9 Video Extension",
       "source": [
         {

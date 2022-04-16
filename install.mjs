@@ -52,9 +52,13 @@ if (isMainThread) {
         const task = await execAsync(`choco install ${primary.Id}`, options);
 
         if (task.stderr) {
-          console.log(`
+          console.log(
+            `
           Installation failed for ${name}
-          `);
+          `,
+            task.stderr,
+            "\n"
+          );
         } else if (task.stdout && task.stdout.includes("installed")) {
           // console.log(`Installed ${name}`);
         }
@@ -68,9 +72,13 @@ if (isMainThread) {
         );
 
         if (task.stderr) {
-          console.log(`
+          console.log(
+            `
           Installation failed for ${name}
-          `);
+          `,
+            task.stderr,
+            "\n"
+          );
         } else if (task.stdout && task.stdout.includes("installed")) {
           // console.log(`Installed ${name}`);
         }
@@ -84,9 +92,13 @@ if (isMainThread) {
         );
 
         if (task.stderr) {
-          console.log(`
+          console.log(
+            `
           Installation failed for ${name}
-          `);
+          `,
+            task.stderr,
+            "\n"
+          );
         } else if (task.stdout && task.stdout.includes("installed")) {
           // console.log(`Installed ${name}`);
         }
@@ -100,9 +112,13 @@ if (isMainThread) {
         );
 
         if (task.stderr) {
-          console.log(`
+          console.log(
+            `
           Installation failed for ${name}
-          `);
+          `,
+            task.stderr,
+            "\n"
+          );
         } else if (task.stdout && task.stdout.includes("installed")) {
           // console.log(`Installed ${name}`);
         }
@@ -113,9 +129,13 @@ if (isMainThread) {
         const task = await execAsync(`fnm install ${primary.Id}`, options);
 
         if (task.stderr) {
-          console.log(`
+          console.log(
+            `
           Installation failed for ${name}
-          `);
+          `,
+            task.stderr,
+            "\n"
+          );
         } else if (task.stdout && task.stdout.includes("installed")) {
           // console.log(`Installed ${name}`);
         }
