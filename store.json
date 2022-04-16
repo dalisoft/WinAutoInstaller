@@ -1,0 +1,880 @@
+{
+  "apps": [
+    {
+      "name": "1Password",
+      "source": [
+        {
+          "Id": "1password",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "AgileBits.1Password",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "7-Zip",
+      "source": [
+        {
+          "Id": "7zip",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "7zip.7zip",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "source": [
+        {
+          "Id": "AdGuard.AdGuard",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Altair GraphQL Client",
+      "source": [
+        {
+          "Id": "altair-graphql",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "altair-graphql.altair",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "APFS for Windows by Paragon Software",
+      "source": [
+        {
+          "Id": "Paragon.APFS",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "AutoHotKey",
+      "source": [
+        {
+          "Id": "autohotkey",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Lexikos.AutoHotkey",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Bat (cat)",
+      "source": [
+        {
+          "Id": "bat",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Choco Cleaner",
+      "source": [
+        {
+          "Id": "choco-cleaner",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "AV1 Video Extension",
+      "source": [
+        {
+          "Id": "AV1 Video Extension",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Beyond Compare",
+      "source": [
+        {
+          "Id": "beyondcompare",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "ScooterSoftware.BeyondCompare4",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "CMake",
+      "source": [
+        {
+          "Id": "cmake",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Kitware.CMake",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Composer",
+      "source": [
+        {
+          "Id": "composer",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "curl",
+      "source": [
+        {
+          "Id": "curl",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Cyberduck",
+      "source": [
+        {
+          "Id": "cyberduck",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Iterate.Cyberduck",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Datagrip",
+      "source": [
+        {
+          "Id": "datagrip",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "JetBrains.DataGrip",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "delta",
+      "source": [
+        {
+          "Id": "delta",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "deno",
+      "source": [
+        {
+          "Id": "deno",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Docker Desktop",
+      "source": [
+        {
+          "Id": "docker-desktop",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Docker.DockerDesktop",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "exiftool",
+      "source": [
+        {
+          "Id": "exiftool",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "ffmpeg",
+      "source": [
+        {
+          "Id": "ffmpeg",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Figma",
+      "source": [
+        {
+          "Id": "figma",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Figma.Figma",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Fira Code",
+      "source": [
+        {
+          "Id": "FiraCode",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "source": [
+        {
+          "Id": "Firefox",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Mozilla.Firefox",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "FlameShot",
+      "source": [
+        {
+          "Id": "flameshot",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Fast Node.js Manager",
+      "source": [
+        {
+          "Id": "fnm",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "GeForce Experience",
+      "source": [
+        {
+          "Id": "geforce-experience",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "GhostScript",
+      "source": [
+        {
+          "Id": "Ghostscript",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "ArtifexSoftware.GhostScript",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Git",
+      "source": [
+        {
+          "Id": "git",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Git.Git",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Git Cola",
+      "source": [
+        {
+          "Id": "git-cola",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "git-cola",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Git LFS",
+      "source": [
+        {
+          "Id": "git-lfs",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "GitHub.GitLFS",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "GNU Privacy Guard",
+      "source": [
+        {
+          "Id": "gnupg",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "GnuPG.GnuPG",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Go Language",
+      "source": [
+        {
+          "Id": "golang",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "GoLang.Go",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Gpg4Win",
+      "source": [
+        {
+          "Id": "gpg4win",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "GnuPG.Gpg4win",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Heroku CLI",
+      "source": [
+        {
+          "Id": "heroku-cli",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Heroku.HerokuCLI",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "ImageGlass",
+      "source": [
+        {
+          "Id": "imageglass",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "DuongDieuPhap.ImageGlass",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "iTunes",
+      "source": [
+        {
+          "Id": "iTunes",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Apple.iTunes",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "LibreSSL",
+      "source": [
+        {
+          "Id": "libressl",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Link Shell Extension",
+      "source": [
+        {
+          "Id": "LinkShellExtension",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "LLVM",
+      "source": [
+        {
+          "Id": "llvm",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "LLVM.LLVM",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Logtech Options",
+      "source": [
+        {
+          "Id": "logitech-options",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Logitech.Options",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Logtech LogiTune",
+      "source": [
+        {
+          "Id": "Logitech.LogiTune",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "MadVR",
+      "source": [
+        {
+          "Id": "madvr",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "MS Win Terminal",
+      "source": [
+        {
+          "Id": "microsoft-windows-terminal",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Microsoft.WindowsTerminal",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Mini Conda 3",
+      "source": [
+        {
+          "Id": "miniconda3",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "MiniConda3",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "nano",
+      "source": [
+        {
+          "Id": "nano",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "neovim",
+      "source": [
+        {
+          "Id": "nano",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "source": [
+        {
+          "Id": "nodejs",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "OpenJS.NodeJS",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Notion",
+      "source": [
+        {
+          "Id": "notion",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Notion.Notion",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "NVidia Broadcast",
+      "source": [
+        {
+          "Id": "Nvidia.Broadcast",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "NVidia Driver",
+      "source": [
+        {
+          "Id": "nvidia-display-driver",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "OBS Studio",
+      "source": [
+        {
+          "Id": "obs-studio",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "OBS Studio",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Office365 for Enterprise",
+      "source": [
+        {
+          "Id": "office365business",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Microsoft.Office",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "OpenJDK11",
+      "source": [
+        {
+          "Id": "openjdk11",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "OpenSSH",
+      "source": [
+        {
+          "Id": "openssh",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "source": [
+        {
+          "Id": "php",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Postman",
+      "source": [
+        {
+          "Id": "postman",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Postman.Postman",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "PotPlayer",
+      "source": [
+        {
+          "Id": "potplayer",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Python 3",
+      "source": [
+        {
+          "Id": "python3",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Python.Python.3",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "qBittorrent",
+      "source": [
+        {
+          "Id": "qbittorrent",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "qBittorrent.qBittorrent",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "R-Clone",
+      "source": [
+        {
+          "Id": "rclone",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Reflect Free",
+      "source": [
+        {
+          "Id": "reflect-free",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Free MacriumReflect",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "ripgrep",
+      "source": [
+        {
+          "Id": "ripgrep",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "R-Sync",
+      "source": [
+        {
+          "Id": "rsync",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Rust",
+      "source": [
+        {
+          "Id": "rust",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Rust Analyzer",
+      "source": [
+        {
+          "Id": "rust-analyzer",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Starship Prompt",
+      "source": [
+        {
+          "Id": "starship",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Steam",
+      "source": [
+        {
+          "Id": "steam",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Valve.Steam",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Telegram",
+      "source": [
+        {
+          "Id": "telegram",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Telegram.TelegramDesktop",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "UnZip",
+      "source": [
+        {
+          "Id": "unzip",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Ventoy",
+      "source": [
+        {
+          "Id": "ventoy",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "VP9 Video Extension",
+      "source": [
+        {
+          "Id": "VP9 Video Extension",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "VS Code",
+      "source": [
+        {
+          "Id": "vscode",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Microsoft.VisualStudioCode",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "WatchMan",
+      "source": [
+        {
+          "Id": "watchman",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "WGet",
+      "source": [
+        {
+          "Id": "Wget",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "WizTree",
+      "source": [
+        {
+          "Id": "wiztree",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "AntibodySoftware.WizTree",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Windows System for Linux v2",
+      "source": [
+        {
+          "Id": "wsl2",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "WSL Ubuntu 20.04",
+      "source": [
+        {
+          "Id": "wsl-ubuntu-2004",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "eXtreme Download Manager",
+      "source": [
+        {
+          "Id": "xdm",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Yarn",
+      "source": [
+        {
+          "Id": "yarn",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Yarn.Yarn",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Zoom",
+      "source": [
+        {
+          "Id": "zoom",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Zoom.Zoom",
+          "Source": "winget"
+        }
+      ]
+    }
+  ]
+}
