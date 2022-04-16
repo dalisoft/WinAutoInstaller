@@ -95,7 +95,7 @@ if (isMainThread) {
       }
       case "pip": {
         const task = await execAsync(
-          `python3 -m pip install --upgrade ${primary.Id}`,
+          `python -m pip install --upgrade ${primary.Id}`,
           options
         );
 
