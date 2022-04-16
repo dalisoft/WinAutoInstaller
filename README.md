@@ -27,6 +27,8 @@ _This feature is currently not impelemnted, format was already made_
 
 ## Unavailable / Uninstallable apps
 
+> Some of these apps canoot be installed due of bug in `winget`, see [here](https://github.com/microsoft/winget-cli/issues/248)
+
 - 3uTools
 - Paragon APFS
 - AdGuard
