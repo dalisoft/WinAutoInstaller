@@ -30,3 +30,4 @@ _This feature is currently not impelemnted, format was already made_
 - 3uTools
 - Paragon APFS
 - AdGuard
+- NVIDIA Broadcast

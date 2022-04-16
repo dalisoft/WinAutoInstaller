@@ -27,15 +27,6 @@
       ]
     },
     {
-      "name": "AdGuard",
-      "source": [
-        {
-          "Id": "AdGuard.AdGuard",
-          "Source": "winget"
-        }
-      ]
-    },
-    {
       "name": "Altair GraphQL Client",
       "source": [
         {
@@ -44,15 +35,6 @@
         },
         {
           "Id": "altair-graphql.altair",
-          "Source": "winget"
-        }
-      ]
-    },
-    {
-      "name": "APFS for Windows by Paragon Software",
-      "source": [
-        {
-          "Id": "Paragon.APFS",
           "Source": "winget"
         }
       ]
