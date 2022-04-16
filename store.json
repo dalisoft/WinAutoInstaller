@@ -40,6 +40,15 @@
       ]
     },
     {
+      "name": "Android Studio",
+      "source": [
+        {
+          "Id": "androidstudio",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
       "name": "AutoHotKey",
       "source": [
         {
@@ -488,6 +497,15 @@
       ]
     },
     {
+      "name": "NextDNS",
+      "source": [
+        {
+          "Id": "nextdns",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
       "name": "NodeJS",
       "source": [
         {
@@ -532,6 +550,15 @@
         {
           "Id": "OBS Studio",
           "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "Octave",
+      "source": [
+        {
+          "Id": "octave",
+          "Source": "chocolatey"
         }
       ]
     },
@@ -695,10 +722,28 @@
       ]
     },
     {
+      "name": "Samsung NVMe Driver",
+      "source": [
+        {
+          "Id": "samsung-nvme-driver",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
       "name": "Starship Prompt",
       "source": [
         {
           "Id": "starship",
+          "Source": "chocolatey"
+        }
+      ]
+    },
+    {
+      "name": "Slack",
+      "source": [
+        {
+          "Id": "slack",
           "Source": "chocolatey"
         }
       ]
@@ -850,6 +895,177 @@
         {
           "Id": "Zoom.Zoom",
           "Source": "winget"
+        }
+      ]
+    },
+    {
+      "name": "node-gyp",
+      "source": [
+        {
+          "Id": "node-gyp",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "http-server",
+      "source": [
+        {
+          "Id": "http-server",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "npm-check-updates",
+      "source": [
+        {
+          "Id": "npm-check-updates",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "typesync",
+      "source": [
+        {
+          "Id": "typesync",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "nodemon",
+      "source": [
+        {
+          "Id": "nodemon",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "flamebearer",
+      "source": [
+        {
+          "Id": "flamebearer",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "0x",
+      "source": [
+        {
+          "Id": "0x",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "cordova",
+      "source": [
+        {
+          "Id": "cordova",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "bs-platform",
+      "source": [
+        {
+          "Id": "bs-platform",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "esy",
+      "source": [
+        {
+          "Id": "esy",
+          "Source": "npm"
+        }
+      ]
+    },
+    {
+      "name": "pip",
+      "source": [
+        {
+          "Id": "pip",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "virtualenv",
+      "source": [
+        {
+          "Id": "virtualenv",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "jupyterlab",
+      "source": [
+        {
+          "Id": "jupyterlab",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "notebook",
+      "source": [
+        {
+          "Id": "notebook",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "labelme",
+      "source": [
+        {
+          "Id": "labelme",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "labelImg",
+      "source": [
+        {
+          "Id": "labelImg",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "psrecord",
+      "source": [
+        {
+          "Id": "psrecord",
+          "Source": "pip"
+        }
+      ]
+    },
+    {
+      "name": "Node.js 16.14.2",
+      "source": [
+        {
+          "Id": "16.14.2",
+          "Source": "fnm"
+        }
+      ]
+    },
+    {
+      "name": "Node.js 17.9.0",
+      "source": [
+        {
+          "Id": "17.9.0",
+          "Source": "fnm"
         }
       ]
     }

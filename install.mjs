@@ -17,7 +17,7 @@ const execAsync = promisify(exec);
 if (isMainThread) {
   console.log("Preparing...");
 
-  const proc = await execAsync(
+  const chocoProc = await execAsync(
     `choco feature enable -n=allowGlobalConfirmation`
   );
 
@@ -25,7 +25,7 @@ if (isMainThread) {
 
   process.on("exit", (code) => {
     if (code !== 0) {
-      proc.kill();
+      chocoProc.kill();
       workers.map((worker) => worker.terminate());
     }
   });
@@ -66,6 +66,51 @@ if (isMainThread) {
           `winget install "${primary.Id}" --accept-package-agreements --silent`,
           options
         );
+
+        if (task.stderr) {
+          console.log(`
+          Installation failed for ${name}
+          `);
+        } else if (task.stdout && task.stdout.includes("installed")) {
+          // console.log(`Installed ${name}`);
+        }
+        tasks.push(task);
+        break;
+      }
+      case "npm": {
+        const task = await execAsync(
+          `npm install --global ${primary.Id}`,
+          options
+        );
+
+        if (task.stderr) {
+          console.log(`
+          Installation failed for ${name}
+          `);
+        } else if (task.stdout && task.stdout.includes("installed")) {
+          // console.log(`Installed ${name}`);
+        }
+        tasks.push(task);
+        break;
+      }
+      case "pip": {
+        const task = await execAsync(
+          `python3 -m pip install --upgrade ${primary.Id}`,
+          options
+        );
+
+        if (task.stderr) {
+          console.log(`
+          Installation failed for ${name}
+          `);
+        } else if (task.stdout && task.stdout.includes("installed")) {
+          // console.log(`Installed ${name}`);
+        }
+        tasks.push(task);
+        break;
+      }
+      case "fnm": {
+        const task = await execAsync(`fnm install ${primary.Id}`, options);
 
         if (task.stderr) {
           console.log(`
