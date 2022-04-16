@@ -33,7 +33,8 @@ if (isMainThread) {
   const start = ((threadId - 1) / cpus.length) * apps.length;
   const end = (threadId / cpus.length) * apps.length;
 
-  let tasks = [];
+  const tasks = [];
+  const signals = [];
 
   for (const { name, source } of apps.slice(start, end)) {
     console.log(`Installing ${name}...`);
@@ -44,31 +45,47 @@ if (isMainThread) {
       encoding: "utf-8",
       signal,
     };
+    signals.push(signal);
 
     switch (primary.Source) {
       case "chocolatey": {
-        tasks.push(execAsync(`choco install ${primary.Id}`, options));
+        const task = await execAsync(`choco install ${primary.Id}`, options);
+
+        if (task.stderr) {
+          console.log(`
+          Installation failed for ${name}
+          `);
+        } else if (task.stdout && task.stdout.includes("installed")) {
+          // console.log(`Installed ${name}`);
+        }
+        tasks.push(task);
         break;
       }
       case "winget": {
-        tasks.push(
-          execAsync(
-            `winget install "${primary.Id}" --accept-package-agreements --silent`,
-            options
-          )
+        const task = await execAsync(
+          `winget install "${primary.Id}" --accept-package-agreements --silent`,
+          options
         );
+
+        if (task.stderr) {
+          console.log(`
+          Installation failed for ${name}
+          `);
+        } else if (task.stdout && task.stdout.includes("installed")) {
+          // console.log(`Installed ${name}`);
+        }
+        tasks.push(task);
         break;
       }
       default: {
         break;
       }
     }
-    tasks = await Promise.all([tasks]);
-    process.on("exit", (code) => {
-      if (code !== 0) {
-        signal.abort();
-        tasks.forEach((task) => task.kill());
-      }
-    });
   }
+  process.on("exit", (code) => {
+    if (code !== 0) {
+      signals.forEach((signal) => signal.abort());
+      tasks.forEach((task) => task.kill());
+    }
+  });
 }

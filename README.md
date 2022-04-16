@@ -21,7 +21,7 @@ _This feature is currently not impelemnted, format was already made_
 ## Installation
 
 - Clone this repo and go-to directory
-- Run Powershell
+- Run Powershell with administator right
 - Run `node ./install.mjs`
 - In a few minutes your apps will be installed
 
@@ -30,5 +30,15 @@ _This feature is currently not impelemnted, format was already made_
 - 3uTools
 - Paragon APFS
 - AdGuard
-- NVIDIA Broadcast
 - Logitech LogiTune
+- NVIDIA Broadcast
+- Intel Graphics Driver
+
+## Recommended commands
+
+### Improve network speed
+
+```powershell
+netsh winsock reset
+netsh int tcp set global autotuninglevel=normal
+```
