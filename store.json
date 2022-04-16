@@ -549,6 +549,19 @@
       ]
     },
     {
+      "name": "OneDrive",
+      "source": [
+        {
+          "Id": "onedrive",
+          "Source": "chocolatey"
+        },
+        {
+          "Id": "Microsoft.OneDrive",
+          "Source": "winget"
+        }
+      ]
+    },
+    {
       "name": "OpenJDK11",
       "source": [
         {
