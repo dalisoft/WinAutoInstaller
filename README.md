@@ -21,7 +21,7 @@ _This feature is currently not impelemnted, format was already made_
 ## Installation
 
 - Clone this repo and go-to directory
-- Run Powershell with administator right
+- Run Powershell
 - Run `node ./install.mjs`
 - In a few minutes your apps will be installed
 
@@ -31,3 +31,4 @@ _This feature is currently not impelemnted, format was already made_
 - Paragon APFS
 - AdGuard
 - NVIDIA Broadcast
+- Logitech LogiTune

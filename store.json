@@ -435,15 +435,6 @@
       ]
     },
     {
-      "name": "Logtech LogiTune",
-      "source": [
-        {
-          "Id": "Logitech.LogiTune",
-          "Source": "winget"
-        }
-      ]
-    },
-    {
       "name": "MadVR",
       "source": [
         {
@@ -518,15 +509,6 @@
         },
         {
           "Id": "Notion.Notion",
-          "Source": "winget"
-        }
-      ]
-    },
-    {
-      "name": "NVidia Broadcast",
-      "source": [
-        {
-          "Id": "Nvidia.Broadcast",
           "Source": "winget"
         }
       ]
