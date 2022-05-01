@@ -1,0 +1,23 @@
+{
+  "name": "winautoinstaller",
+  "version": "1.0.0",
+  "description": "My applications list for automatize auto-installing after fresh installation of any Windows 10+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalisoft/WinAutoInstaller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalisoft/WinAutoInstaller/issues"
+  },
+  "homepage": "https://github.com/dalisoft/WinAutoInstaller#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31"
+  }
+}

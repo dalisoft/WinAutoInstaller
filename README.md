@@ -7,13 +7,6 @@ My applications list for automatize auto-installing after fresh installation of 
 - chocolatey
 - Node.js v17.5+
 
-## Features
-
-- Uses all power of your CPU
-- Uses all power of your network
-- Very fast
-- Uses already tested and trusted tools
-
 ## Backup
 
 _This feature is currently not impelemnted, format was already made_

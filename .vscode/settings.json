@@ -1,4 +1,5 @@
 {
   "prettier.requireConfig": false,
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "javascript.validate.enable": true
 }
